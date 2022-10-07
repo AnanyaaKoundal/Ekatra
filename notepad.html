@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+            <h3 class="brand">Ekatra</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="notepad.html">Notepad</a></li></ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search Event" aria-label="Search" id="SearchNotes">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container my3">
+        <hr>
+        <h3>Planner</h3>
+        You can use this to store your upcoming event details or taking short notes during meetings.
+        <hr>
+        <div class="card" id="first">
+            <div class="card-body" id="add">
+                <h5 class="card-title">Add a event</h5>
+                <p class="card-text">
+                    <textarea class="form-control" aria-label="With textarea" id="addTitle" placeholder="Title"></textarea><br>
+                    <textarea class="form-control" aria-label="With textarea" id="addTxt" placeholder="Write here"></textarea></p>
+                <a href="#" class="btn btn-primary" id="addBtn">Save</a>
+            </div>
+        </div>
+        <hr>
+        <h4>Saved Events</h4>
+        <small>To sort, use the search bar above</small>
+        <hr>
+        <div id="notes" class="row container-fluid">
+        </div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+    <script src="js/addnote.js"></script>
+</body>
+<footer class="navbar bg-dark">
+
+</footer>
+</html>

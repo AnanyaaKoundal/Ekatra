@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alumni+Sans+Collegiate+One:ital@1&family=Merriweather:ital,wght@1,300&family=Poppins:wght@300;400&family=Roboto+Condensed:ital@1&display=swap');
+/* font-family: 'Abyssinica SIL', serif;
+font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+.contain{
+    background-color: rgb(222, 237, 249);
+    height: auto;
+}
+.card1{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 20px;
+    color: blue;
+}
