@@ -1,6 +1,6 @@
 # Ekatra: A collection of resources at one place 
 
-This project aims to spread STEM education among girls. ```One of the main reasons behind girls not choosing science islack of guidance``` and the belief that it is meant only for boys. 
+This project aims to spread STEM education among girls. ```One of the main reasons behind girls not choosing science is lack of guidance``` and the belief that it is meant only for boys. 
 
 This is the main idea about the topic of making STEM education accessible to girls.
 
@@ -18,3 +18,5 @@ To sum up, the website is aimed at fecilitating as a open collection of resource
 `Due to time constraints, I was not able to implement the idea completely as researching and gathering reliable and required amount of resources was not possible. But I have created a framework for the website and that of the notepad too, as a brief about how the website will function.`
 
 Link to Github repository: https://github.com/AnanyaaKoundal/Ekatra
+
+Site published at: https://ananyaakoundal.github.io/Ekatra/index.html
